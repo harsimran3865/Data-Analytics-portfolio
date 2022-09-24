@@ -12,19 +12,14 @@ INPUT -
 
 `SELECT contests.contest_id, contests.hacker_id, contests.name, sum(total_submissions) ts, sum(total_accepted_submissions) tas, sum(total_views) tv, sum(total_unique_views) tuv
 FROM Contests
-
 JOIN Colleges
 ON Colleges.contest_id = Contests.contest_id
-
 JOIN Challenges
 ON Challenges.college_id = Colleges.college_id
-
 LEFT JOIN View_stats
 ON view_stats.challenge_id = Challenges.challenge_id
-
 LEFT JOIN submission_stats
 ON submission_stats.challenge_id = challenges.challenge_id
-
 GROUP BY contests.contest_id,contests.hacker_id,contests.name
 HAVING sum(total_submissions + total_accepted_submissions + total_views + total_unique_views ) > 0
 ORDER BY contests.contest_id; `
