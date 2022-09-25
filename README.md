@@ -2,13 +2,14 @@
 
 ## Harsimran Sandhu - Portfolio 
 
-#### Hey there, I am a Junior Data Analyst and here are some of the codes / project i've used to show my current skills in SQL, Tablaue, and R.
+#### Hey there, I am a Junior Data Analyst and here are some of the codes / project i've used to show my current skills in SQL, Tablaue, Google Data Studio and R.
 
 ## SQL
 
 TASK - Write a query to print the contest_id, hacker_id, name, and the sums of total_submissions, total_accepted_submissions, total_views, and total_unique_views for each contest sorted by contest_id. Exclude the contest from the result if all four sums are. Data is partially stored in 5 different tables, Join them and do your analysis.
 
-```INPUT - 
+```
+INPUT - 
 
 SELECT contests.contest_id, contests.hacker_id, contests.name, sum(total_submissions) ts, sum(total_accepted_submissions) tas, sum(total_views) tv, sum(total_unique_views) tuv
 FROM Contests
@@ -72,6 +73,12 @@ OUTPUT -
 18477 14440 Joseph 2213 728 2352 777 
 18855 16973 Lawrence 7693 2397 7966 2527 
 19097 17123 Marilyn 7020 2134 6420 1890 
-19575 17562 Lori 5222 1625 5692 1695 ```
+19575 17562 Lori 5222 1625 5692 1695 
+```
 
 
+## Google Data Studio
+
+![alt text](https://i.imgur.com/rRDNxt8.png)
+
+Access the LIVE report on Google Data Studio here - https://datastudio.google.com/s/n994QkcngPw
