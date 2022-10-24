@@ -6,7 +6,7 @@
 
 ## Tableau Portfolio
 
-![Tableau BreakFix Portfolio](https://prnt.sc/on2Xj4QkNZdQ)
+![Tableau BreakFix Portfolio](https://i.imgur.com/bLov8tv.png)
 
 Please access my dashboard here - https://public.tableau.com/app/profile/dokezar/viz/BreakFixTracker/Dashboard1
 
