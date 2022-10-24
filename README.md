@@ -4,9 +4,17 @@
 
 #### Hey there, I am a Junior Data Analyst and here are some of the codes / project i've used to show my current skills in SQL, Tablaue, Google Data Studio and R.
 
+## Tableau Portfolio
+
+![Tableau BreakFix Portfolio](https://prnt.sc/on2Xj4QkNZdQ)
+
+Please access my dashboard here - https://public.tableau.com/app/profile/dokezar/viz/BreakFixTracker/Dashboard1
+
+I built this Dashboard for a company to keep an eye over their Break Fix Tracker for all their locations.
+
 ## Google Data Studio
 
-![alt text](https://i.imgur.com/rRDNxt8.png)
+![Google Data Studio Portfolio](https://i.imgur.com/rRDNxt8.png)
 
 Access the LIVE report on Google Data Studio here - https://datastudio.google.com/s/n994QkcngPw
 
